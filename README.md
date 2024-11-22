@@ -1,7 +1,7 @@
 # Project_4
 
 ## Overview
-In this project, we selected a home sales dataset from Realtor.com. The dataset provided use with information on house sales for  for the years 2016 to 2024. Examples of the columns in the dataset provided to us were county names, average listing price, and average square feet; just to name a few. Using the data provided, we created a model to predict home sale prices.
+In this project, we selected a home sales dataset from Realtor.com. The dataset provided us with information on house sales for  for the years 2016 to 2024. Examples of the columns in the dataset provided to us were county names, average listing price, and average square feet; just to name a few. Using the data provided, we created a model to predict home sale prices.
 
 ## Process
 
