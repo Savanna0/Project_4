@@ -20,7 +20,7 @@ After finding our first model only had a r2 score of 74% we attempted to optimiz
 ## Results
 
 Initial Attempt r2 score
-![Screen Shot 2024-11-18 at 7 05 14 PM](https://github.com/user-attachments/assets/4ecce56e-5e10-4769-b76c-0a9048de114b)
+![Screen Shot 2024-11-23 at 8 08 12 PM](https://github.com/user-attachments/assets/3ba0e1e7-e72b-497a-9284-0032a56b686e)
 
 Optimization Attempt 1/ adding states
 ![Screen Shot 2024-11-23 at 8 09 53 PM](https://github.com/user-attachments/assets/43fd5427-aafb-4f6f-b5d3-d60aa36fe01a)
