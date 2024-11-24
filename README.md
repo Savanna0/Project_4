@@ -5,7 +5,7 @@ In this project, we selected a home sales dataset from Realtor.com. The dataset 
 
 ## Overall Process
 
-### Cleaning
+### Cleaning the Data
 First, we read in the dataset using pandas. Next, we started cleaning the dataset by dropping unwanted columns, columns that were outliers in the dataset, and columns with NAN values. Then, we renamed the columns for easier readability. Next, we split the year/month column, dropped the combined year/month column, and reordered the columns. Finally, we exported the cleaned data into a CSV to use in the house sales model training.
 
 ### Preparing the Model
