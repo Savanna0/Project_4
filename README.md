@@ -32,7 +32,7 @@ Optimization Attempt 2/ adding columns: Median Listing Price, Price Increased Co
 ![Screen Shot 2024-11-23 at 8 11 26 PM](https://github.com/user-attachments/assets/dfc79dd8-ebb1-4406-b42f-a19871a0832f)
 
 ## Summary
-Overall we found the second model, that added in the states column, was the best model for predicting housing prices with an r2 score of 75%. We believe there needs to be a bit more data to achieve a higher score. We also believe having exact housing prices instead of the averages would help our model achieve a higher r2 score.
+Overall, we found the second model, that added in the states column, was the best model for predicting housing prices with an r2 score of 75%. We believe there needs to be a bit more data to achieve a higher score. We also believe having exact housing prices instead of the averages would help our model achieve a higher r2 score.
 
 ## Resources
 Dataset provided by https://www.realtor.com/. 
