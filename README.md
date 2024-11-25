@@ -32,9 +32,9 @@ Optimization Attempt 2/ adding columns: Median Listing Price, Price Increased Co
 ![Screen Shot 2024-11-23 at 8 11 26 PM](https://github.com/user-attachments/assets/dfc79dd8-ebb1-4406-b42f-a19871a0832f)
 
 ## Summary
-For visualizations published to the public. (version) Tableau 2024.3.1
-https://public.tableau.com/views/Project_4_TPW/Project4Story?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Resources
 Dataset provided by https://www.realtor.com/. 
+For visualizations published to the public. (version) Tableau 2024.3.1
+https://public.tableau.com/views/Project_4_TPW/Project4Story?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 Resources provided by instructor assistance, class material, instructor video recordings, and examples given from TTC Bootcamp. Xpert Learning Assistant provided by TCC Bootcamp. Tutoring provided by TTC Bootcamp.
