@@ -8,6 +8,9 @@ In this project, we selected a home sales dataset from Realtor.com. The dataset 
 ### Cleaning the Data
 First, we read in the dataset using pandas. Next, we started cleaning the dataset by dropping unwanted columns, columns that were outliers in the dataset, and columns with NAN values. Then, we renamed the columns for easier readability. Next, we split the year/month column, dropped the combined year/month column, and reordered the columns. Finally, we exported the cleaned data into a CSV to use in the house sales model training.
 
+### Visualizations
+We created a line graph to show the number of listings eash year. It shows us a decline in listings as of 2019 which lasts until mid 2022. Next, we have a visualization of listings over a year. It shows us that in winter months there arent many sales or listings however, mid summer through fall it is much busier. 
+
 ### Preparing the Model
 For training the model, we imported our cleaned CSV into a new notebook to use to train our model. First, we imported our dependicies, created our engine, read in our cleaned_housing_market_data csv, and loaded our dataframe into our database. Next, we created a query for our Housing_Data so if we needed to look at specific points in our data, we are about to quickly find the specific information we need. We then scaled the numeric columns. We then attempted to get_dummies from the County Names column but quickly realized that the output was too large to include in our model. We then concatinated our scaled data with our unscaled data and created our data for the model. 
 
