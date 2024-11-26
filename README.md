@@ -9,7 +9,7 @@ In this project, we selected a home sales dataset from Realtor.com. The dataset 
 First, we read in the dataset using pandas. Next, we started cleaning the dataset by dropping unwanted columns, columns that were outliers in the dataset, and columns with NAN values. Then, we renamed the columns for easier readability. Next, we split the year/month column, dropped the combined year/month column, and reordered the columns. Finally, we exported the cleaned data into a CSV to use in the house sales model training.
 
 ### Visualizations
-We created a line graph to show the number of listings eash year. It shows us a decline in listings as of 2019 which lasts until mid 2022. Next, we have a visualization of listings over a year. It shows us that in winter months there arent many sales or listings however, mid summer through fall it is much busier. 
+We created a line graph to show the number of listings eash year. It shows us a decline in listings as of 2019 which lasts until mid 2022. Next, we have a visualization of listings over a year. It shows us that in winter months there arent many sales or listings however, mid summer through fall it is much busier. Used Tableau to create data visualizations, specifically Active Listings, New Listings, Average Listing Price, and Average of Median Days.
 
 ### Preparing the Model
 For training the model, we imported our cleaned CSV into a new notebook to use to train our model. First, we imported our dependicies, created our engine, read in our cleaned_housing_market_data csv, and loaded our dataframe into our database. Next, we created a query for our Housing_Data so if we needed to look at specific points in our data, we are about to quickly find the specific information we need. We then scaled the numeric columns. We then attempted to get_dummies from the County Names column but quickly realized that the output was too large to include in our model. We then concatinated our scaled data with our unscaled data and created our data for the model. 
@@ -36,6 +36,8 @@ Optimization Attempt 2/ adding columns: Median Listing Price, Price Increased Co
 
 ## Summary
 Overall, we found the second model, that added in the states column, was the best model for predicting housing prices with an r2 score of 75%. We believe there needs to be a bit more data to achieve a higher score. We also believe having exact housing prices instead of the averages would help our model achieve a higher r2 score.
+
+Tableau link: https://public.tableau.com/app/profile/lisa.miller2681/viz/Project4_17325817150590/Project4Story
 
 ## Resources
 Dataset provided by https://www.realtor.com/. 
